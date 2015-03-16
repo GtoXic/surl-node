@@ -1,6 +1,6 @@
 {
 	"name": "surl-node",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "NodeJS client for SURL services",
 	"author": "John Houlder <john.h@toxic-productions.com>",
 	"contributors": [{
