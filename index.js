@@ -1,4 +1,5 @@
 var url = require("./url");
+var paste = require("./paste");
 var request = require("request");
 
 var token = "";
@@ -26,5 +27,8 @@ module.exports = {
 	},
 	url: function(longurl,opts,callback){
 		url.shorten(this.token,longurl,opts,callback);
+	},
+	paste: function(text,opts,callback){
+		paste.create(this.token,text,opts,callback);
 	}
 };
